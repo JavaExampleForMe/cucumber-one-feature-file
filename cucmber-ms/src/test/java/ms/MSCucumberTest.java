@@ -19,7 +19,7 @@ public class MSCucumberTest {
 
     @BeforeClass
     public static void open(){
-        appContext = SpringApplication.run(MsTestApplication.class, "");
+        appContext = SpringApplication.run(MsTestConfig.class, "");
     }
     @AfterClass
     public static void close(){
